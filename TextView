@@ -1,0 +1,8 @@
+        android:layout_width="wrap_content"                  //Wrap's text, so that it will take minimum space to show it
+        android:layout_height="wrap_content"                 //Wrap's the vertical space too
+        android:text="Hello World! \n"                       //Text that I want to show
+        android:text="@string/wby"                           //Imported String from string.xml
+        android:textSize="20sp"                              //Define's the size of the text
+        android:textStyle="italic"                           //Style(Bold / Italic / Normal)
+        android:textColor="@color/red"                       //From color.xml
+        android:textAllCaps="true"                           //Convert's all the text to Capitals
