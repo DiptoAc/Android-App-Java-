@@ -1,6 +1,13 @@
 <TextView
         android:layout_width="wrap_content"       //Wrap's the text. And takes minimum area that is essential to fit the text in the app's screen.
+                             "match_parent"       //Match's the width of text with the parent.
         android:layout_height="wrap_content"      //Wrap's height
+        android:textAlignment="center"            //Align's the text in center
+                              "viewStart"         //Align's from the start following Usual writing convention.
+                              "viewEnd"           //Align's from the end following Arabic writing convention.
+        android:textIsSelectable="true"           //Make's the text selectable.
+        android:textColorHighlight="@android:color/darker_gray"
+                                                  //Selecting text hilight's it with the given color.
         android:text="Hello World! \n"            //Text to the showed
         android:textSize="20sp"                   //Text size. (sp)
         android:textStyle="italic"                //text Style (bold/italic/normal)            
