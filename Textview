@@ -1,0 +1,9 @@
+<TextView
+        android:layout_width="wrap_content"       //Wrap's the text. And takes minimum area that is essential to fit the text in the app's screen.
+        android:layout_height="wrap_content"      //Wrap's height
+        android:text="Hello World! \n"            //Text to the showed
+        android:textSize="20sp"                   //Text size. (sp)
+        android:textStyle="italic"                //text Style (bold/italic/normal)            
+        android:textColor="@color/red"            //coler of the text.(color is taken form colors.xml folder)
+        android:textAllCaps="true"                //Makes all the letters Capital letter
+/>
