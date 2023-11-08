@@ -1,7 +1,9 @@
 <TextView
+        android:id="@+id/UniqueID"                // Unique Id of text.
         android:layout_width="wrap_content"       //Wrap's the text. And takes minimum area that is essential to fit the text in the app's screen.
                              "match_parent"       //Match's the width of text with the parent.
         android:layout_height="wrap_content"      //Wrap's height
+        android:layout_margin="2dp"               //Gives the text margin form all sides
         android:textAlignment="center"            //Align's the text in center
                               "viewStart"         //Align's from the start following Usual writing convention.
                               "viewEnd"           //Align's from the end following Arabic writing convention.
