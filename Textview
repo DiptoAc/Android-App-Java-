@@ -1,18 +1,18 @@
 <TextView
         android:id="@+id/UniqueID"                // Unique Id of text.
-        android:layout_width="wrap_content"       //Wrap's the text. And takes minimum area that is essential to fit the text in the app's screen.
-                             "match_parent"       //Match's the width of text with the parent.
+        android:layout_width="wrap_content"       //Wrap's the text. And takes the minimum area that is essential to fit the text on the app's screen.
+                             "match_parent"       //Match the width of the text with the parent.
         android:layout_height="wrap_content"      //Wrap's height
         android:layout_margin="2dp"               //Gives the text margin form all sides
         android:textAlignment="center"            //Align's the text in center
-                              "viewStart"         //Align's from the start following Usual writing convention.
-                              "viewEnd"           //Align's from the end following Arabic writing convention.
-        android:textIsSelectable="true"           //Make's the text selectable.
+                              "viewStart"         //Align from the start following the Usual writing convention.
+                              "viewEnd"           //Align from the end following the Arabic writing convention.
+        android:textIsSelectable="true"           //Make the text selectable.
         android:textColorHighlight="@android:color/darker_gray"
-                                                  //Selecting text hilight's it with the given color.
+                                                  //Selecting text highlights it with the given colour.
         android:text="Hello World! \n"            //Text to the showed
         android:textSize="20sp"                   //Text size. (sp)
         android:textStyle="italic"                //text Style (bold/italic/normal)            
-        android:textColor="@color/red"            //coler of the text.(color is taken form colors.xml folder)
+        android:textColor="@color/red"            //color of the text.(color is taken from colors.xml folder)
         android:textAllCaps="true"                //Makes all the letters Capital letter
 />
